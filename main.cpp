@@ -3,8 +3,8 @@
 #include <iostream>
 #include <vector>
 
-std::vector<float> quantiles(const std::vector<float>& data,
-                             const std::vector<float>& probabilities) {
+std::vector<float> quantiles(const std::vector<float> &data,
+                             const std::vector<float> &probabilities) {
   if (data.empty()) return std::vector<float>();
 
   if (data.size() == 1) return std::vector<float>(1, data[0]);
@@ -162,7 +162,7 @@ void usage(std::string name) {
       << "\t cut -d ',' -f 2 'somefile.csv' | stats" << std::endl;
 }
 
-int main(int argc, char* argv[]) {
+int main(int argc, char *argv[]) {
   std::string name = argv[0];
   bool compute_quartiles = false;
   bool print_json = false;
