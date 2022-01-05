@@ -1,0 +1,15 @@
+
+# Compiler output
+*.out
+*.exe
+*.app
+stats
+
+# Vim stuff
+*.swp
+
+# Vscode
+.vscode/*
+
+#macos
+.DS_Store
