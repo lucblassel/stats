@@ -11,5 +11,9 @@ stats
 # Vscode
 .vscode/*
 
-#macos
+# CLion
+.idea/*
+cmake-build-debug/*
+
+# MacOs
 .DS_Store
